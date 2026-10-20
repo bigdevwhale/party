@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Отряд из двух</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="next">Дальше</string>
+    <string name="back">Назад</string>
+    <string name="close">Закрыть</string>
+    <string name="settings">Настройки</string>
+    <string name="quoted">«%s»</string>
+    <string name="hero_a">Первый герой</string>
+    <string name="hero_b">Второй герой</string>
+    <string name="party_names">%1$s и %2$s</string>
+    <string name="level_line">Уровень %1$d · %2$s</string>
+    <string name="xp_line">%1$d / %2$d опыта</string>
+    <string name="xp_max">%d опыта · высший уровень</string>
+    <string name="tab_tavern">Таверна</string>
+    <string name="tab_chronicle">Хроника</string>
+    <string name="tab_map">Королевство</string>
+    <string name="tab_treasury">Сокровищница</string>
+    <string name="found_eyebrow">Отряд из двух</string>
+    <string name="found_title">Каждое свидание — квест</string>
+    <string name="found_text">Вы двое — отряд героев. Свидания — квесты в настоящем мире: прогулка становится дозором фонарей, ужин — пиром в таверне. Эта книга — ваш мастер игры: она раздаёт каждому тайное задание, посылает встречи на дороге, бросает кость судьбы и ведёт хронику всего, что вы прожили вместе.</string>
+    <string name="found_how">Сначала отряду нужен герб. Каждый ответит на пять вопросов сам — где вы совпадёте, щит будет единым; где разойдётесь — он разделится и покажет обоих.</string>
+    <string name="found_begin">Основать отряд</string>
+    <string name="found_heroes_eyebrow">Герои</string>
+    <string name="found_heroes">Кто отправляется в путь?</string>
+    <string name="found_name_a">Имя первого героя</string>
+    <string name="found_name_b">Имя второго героя</string>
+    <string name="found_he">он</string>
+    <string name="found_she">она</string>
+    <string name="found_pronoun_why">Только чтобы книга верно обращалась к каждому в русском тексте.</string>
+    <string name="found_question_n">Вопрос %1$d из %2$d</string>
+    <string name="found_for">Для героя: %s</string>
+    <string name="found_alone_a">Второй отворачивается. Отвечайте за себя.</string>
+    <string name="found_alone_b">Теперь передайте телефон. Не подсматривайте первый ответ.</string>
+    <string name="ask_hour">В какой час вам двоим лучше всего?</string>
+    <string name="ask_ordinary">Куда бы вы отправились вместе?</string>
+    <string name="ask_beast">Какой зверь — ваш отряд?</string>
+    <string name="ask_symbol">Какой знак вы бы несли?</string>
+    <string name="ask_metal">Золото или серебро?</string>
+    <string name="metal_gold">Золото</string>
+    <string name="metal_silver">Серебро</string>
+    <string name="found_arms_eyebrow">Герб</string>
+    <string name="found_arms">Ваш герб</string>
+    <string name="arms_one_field">Вы выбрали один час — поле единое.</string>
+    <string name="arms_split_field">Разные часы — поле рассечено, половина каждому.</string>
+    <string name="arms_split_ordinary">Разные дороги — по половине каждой, как старые герольды соединяли два рода.</string>
+    <string name="arms_one_beast">Один зверь — он стоит в середине щита.</string>
+    <string name="arms_two_beasts">Два зверя — они обращены друг к другу.</string>
+    <string name="arms_two_symbols">Два знака рядом в главе щита.</string>
+    <string name="arms_two_metals">И золото, и серебро: полоса одним металлом, фигуры другим.</string>
+    <string name="arms_agreed">Вы совпали в %d из пяти.</string>
+    <string name="arms_grows">Герб будет расти: кайма, шлем, корона и другое — по мере того, как отряд растёт в уровнях.</string>
+    <string name="found_motto_eyebrow">Девиз</string>
+    <string name="found_motto">И девиз — вместе</string>
+    <string name="found_motto_text">Строка под щитом. Пафосная или смешная — она ваша.</string>
+    <string name="found_motto_field">Девиз</string>
+    <string name="found_motto_hint">Его можно поменять потом.</string>
+    <string name="motto_placeholder">…</string>
+    <string name="found_seal">Скрепить печатью</string>
+    <string name="on_the_road">Отряд в пути</string>
+    <string name="on_the_road_since">Вышли %s</string>
+    <string name="on_the_road_back">Вернуться на дорогу</string>
+    <string name="raven_title">Поручение ворона</string>
+    <string name="raven_do">Исполнено (+%d)</string>
+    <string name="raven_done">Исполнено</string>
+    <string name="raven_undo">отменить</string>
+    <string name="campaign_title">Сказание</string>
+    <string name="campaign_progress">%1$d / %2$d</string>
+    <string name="campaign_chapter">Глава %1$s. %2$s</string>
+    <string name="campaign_wait">Следующая глава появится: %s. Сказанию нужно несколько дней, чтобы перевести дух.</string>
+    <string name="campaign_locked">Откроется, когда закончится предыдущее сказание, или на %d уровне.</string>
+    <string name="campaign_done">Рассказано</string>
+    <string name="campaigns_title">Сказания</string>
+    <string name="board_title">Доска заданий</string>
+    <string name="board_sub">Новые объявления каждый понедельник.</string>
+    <string name="board_tear">Сорвать (%d)</string>
+    <string name="notice_meta">%1$s · %2$s</string>
+    <string name="done_stamp">Пройдено</string>
+    <string name="book_open">Все квесты</string>
+    <string name="custom_open">Свой квест</string>
+    <string name="dragons_title">Драконы отряда</string>
+    <string name="dragons_none">Ни один дракон ещё не назван.</string>
+    <string name="dragons_none_sub">Дракон — это дело, которое вы оба откладываете. Назовите его и победите вместе.</string>
+    <string name="dragon_hp">Осталось %1$d из %2$d жизней</string>
+    <string name="letters_title">Письма с вороном</string>
+    <string name="letters_write">Написать письмо под печатью</string>
+    <string name="letters_sub">Ворон принесёт его в начале следующего квеста.</string>
+    <string name="book_title">Книга квестов</string>
+    <string name="book_count">Пройдено %1$d из %2$d квестов</string>
+    <string name="book_all">Все</string>
+    <string name="notice_title">Объявление</string>
+    <string name="notice_tasks">Задачи</string>
+    <string name="notice_secret_hint">Когда возьмётесь, каждый получит тайное задание. В конце попробуете угадать задание друг друга.</string>
+    <string name="notice_take">Взяться за квест</string>
+    <string name="notice_busy">Отряд уже в пути</string>
+    <string name="flag_home">можно дома</string>
+    <string name="flag_out">на улице</string>
+    <string name="flag_evening">лучше вечером</string>
+    <string name="flag_money">понадобится немного монет</string>
+    <string name="custom_intro">Ваш собственный план на вечер — в виде квеста. Тайны, кость и встречи всё равно будут.</string>
+    <string name="custom_title">Как называется квест?</string>
+    <string name="custom_tasks">Задачи, по одной на строку</string>
+    <string name="custom_school">Школа</string>
+    <string name="custom_rank">Размах</string>
+    <string name="custom_quest">Наш собственный квест</string>
+    <string name="custom_in_which">в которой отряд взялся за «%s»</string>
+    <string name="oath_bar">Клятва</string>
+    <string name="oath_eyebrow">Перед дорогой</string>
+    <string name="oath_words">%1$s и %2$s, положите большие пальцы на печать вместе и держите. С этой минуты телефоны служат квесту.</string>
+    <string name="oath_hold">Оба пальца на печать</string>
+    <string name="oath_one_more">Ещё один палец…</string>
+    <string name="oath_alone">Не выходит вдвоём? Поклянитесь на словах</string>
+    <string name="letter_raven">Прилетел ворон</string>
+    <string name="letter_for">Письмо для: %s</string>
+    <string name="letter_only">Печать ломает только %s.</string>
+    <string name="letter_break">Сломать печать</string>
+    <string name="letter_next">Следующее письмо</string>
+    <string name="letter_done">К тайнам</string>
+    <string name="secret_eyebrow">Тайна %d из 2</string>
+    <string name="secret_pass">Передайте телефон: %s</string>
+    <string name="secret_no_peeking">%s отворачивается и не смотрит.</string>
+    <string name="secret_hold">Удерживайте, чтобы прочесть тайное задание</string>
+    <string name="secret_rules">Выполните его до конца квеста и не попадитесь. В конце другой попробует угадать.</string>
+    <string name="secret_got_it">Запомнено</string>
+    <string name="secret_other">Сегодня невозможно — другое</string>
+    <string name="journey_bar">В пути</string>
+    <string name="journey_since">В пути с %s</string>
+    <string name="journey_tools">Мастер игры</string>
+    <string name="journey_log">На полях</string>
+    <string name="journey_home">Возвращаться домой</string>
+    <string name="journey_abandon">Бросить квест</string>
+    <string name="abandon_title">Бросить квест?</string>
+    <string name="abandon_text">Он не попадёт в хронику, и всё, что случилось в этом пути, забудется.</string>
+    <string name="tool_die">Кость судьбы</string>
+    <string name="tool_die_sub">рассудить спор</string>
+    <string name="tool_encounter">Встреча</string>
+    <string name="tool_encounter_sub">кто на дороге?</string>
+    <string name="tool_campfire">Привал</string>
+    <string name="tool_campfire_sub">вопросы у костра</string>
+    <string name="tool_seal">Заклятие тишины</string>
+    <string name="tool_seal_sub">телефон экраном вниз</string>
+    <string name="tool_peek">Ещё раз взглянуть на свою тайну</string>
+    <string name="back_to_road">Вернуться на дорогу</string>
+    <string name="die_eyebrow">Кость судьбы</string>
+    <string name="die_text">Сначала договоритесь, что значит высокое и низкое. Двадцать приносит милость, единица — злоключение.</string>
+    <string name="die_roll">Бросить</string>
+    <string name="die_again">Бросить снова</string>
+    <string name="die_high">Высоко — судьба склоняется к первому.</string>
+    <string name="die_low">Низко — судьба склоняется ко второму.</string>
+    <string name="die_twenty">Чистая двадцатка</string>
+    <string name="die_one">Чистая единица</string>
+    <string name="encounter_eyebrow">На дороге</string>
+    <string name="encounter_wandered">Пока вы не заглядывали в книгу…</string>
+    <string name="encounter_done">Сделано</string>
+    <string name="encounter_other">Пройти мимо — другая встреча</string>
+    <string name="campfire_eyebrow">У костра</string>
+    <string name="campfire_both">Отвечают оба, по очереди.</string>
+    <string name="campfire_next">Подбросить полено</string>
+    <string name="campfire_skip">Не этот вопрос</string>
+    <string name="campfire_rise">Снова в путь</string>
+    <string name="peek_eyebrow">Тайна</string>
+    <string name="peek_who">Чья тайна?</string>
+    <string name="seal_eyebrow">Заклятие тишины</string>
+    <string name="seal_text">Положите телефон экраном вниз и не трогайте. Другие телефоны тоже. Выберите, сколько продлится заклятие.</string>
+    <string name="seal_minutes">%d мин</string>
+    <string name="seal_cast">Наложить заклятие</string>
+    <string name="seal_lay_down">Теперь переверните телефон экраном вниз.</string>
+    <string name="seal_lay_sub">Печать держится %d минут. Когда время выйдет, телефон коротко вздрогнет.</string>
+    <string name="seal_held">Печать держится.</string>
+    <string name="seal_kept">Печать устояла</string>
+    <string name="seal_broken">Печать треснула</string>
+    <string name="seal_again">Наложить снова</string>
+    <string name="log_roll">Выпало %d</string>
+    <string name="home_confirm_title">Возвращаться домой?</string>
+    <string name="home_confirm_text">По дороге домой вы угадаете тайны друг друга и запишете главу.</string>
+    <string name="home_confirm_yes">Домой</string>
+    <string name="home_eyebrow">Дорога домой</string>
+    <string name="guess_title">%2$s хранит тайну. %1$s, угадайте её</string>
+    <string name="guess_sub">Одно из этих заданий было тайным. Какое?</string>
+    <string name="guess_real">Вот оно</string>
+    <string name="guess_hit">Угадано!</string>
+    <string name="guess_miss">Мимо — тайна хорошо спрятана.</string>
+    <string name="guess_owned">%s, признавайтесь: получилось?</string>
+    <string name="owned_yes">Да</string>
+    <string name="owned_partly">Отчасти</string>
+    <string name="owned_no">Нет</string>
+    <string name="lines_bar">Хроника</string>
+    <string name="lines_eyebrow">Новая глава</string>
+    <string name="lines_sub">Каждый пишет строку-другую: что хочется запомнить о сегодняшнем дне.</string>
+    <string name="lines_of">Строка героя: %s</string>
+    <string name="trophy_bar">Трофей</string>
+    <string name="trophy_eyebrow">С дороги</string>
+    <string name="trophy_title">Что вы принесли с собой?</string>
+    <string name="trophy_sub">Билет, камешек, чек, листок. Сфотографируйте и дайте имя — он отправится в сокровищницу.</string>
+    <string name="trophy_photo">Сфотографировать</string>
+    <string name="trophy_name">Имя трофея</string>
+    <string name="trophy_lore_title">Его свойства</string>
+    <string name="trophy_lore">+%1$d %2$s. Проклятие: %3$s.</string>
+    <string name="trophy_reroll">Другие свойства</string>
+    <string name="trophy_none">В этот раз без трофея</string>
+    <string name="place_bar">Карта</string>
+    <string name="place_sub">Где в вашем королевстве это было? Коснитесь карты, чтобы поставить там башню.</string>
+    <string name="place_name">Название места</string>
+    <string name="place_name_fmt">%1$s %2$s</string>
+    <string name="place_finish">Записать в хронику</string>
+    <string name="place_skip">Не отмечать на карте</string>
+    <string name="rewards_bar">Итоги</string>
+    <string name="rewards_eyebrow">Записано в хронику</string>
+    <string name="rewards_total">Опыт</string>
+    <string name="rewards_level">Новый уровень</string>
+    <string name="rewards_arms_grew">Герб вырос.</string>
+    <string name="rewards_rank">Новый ранг</string>
+    <string name="rewards_deeds">Новые подвиги</string>
+    <string name="rewards_done">В таверну</string>
+    <string name="chapter_heading">Глава %1$s, %2$s</string>
+    <string name="chronicle_title">Хроника</string>
+    <string name="chronicle_page">лист %1$d из %2$d</string>
+    <string name="prologue_eyebrow">Пролог</string>
+    <string name="prologue_title">Основание отряда</string>
+    <string name="prologue_text">Здесь начинается хроника отряда, в который вступили %1$s и %2$s, основанного %3$s. Они поклялись ходить в квесты вместе и записывать всё, что с ними случится.</string>
+    <string name="prologue_empty">Следующие листы пока пусты.</string>
+    <string name="prologue_swipe">Переверните лист →</string>
+    <string name="page_margins">На полях</string>
+    <string name="page_tasks">Выполнено задач: %1$d из %2$d</string>
+    <string name="page_secret">Тайна (%1$s): %2$s — %3$s</string>
+    <string name="page_secret_yes">исполнено</string>
+    <string name="page_secret_partly">наполовину</string>
+    <string name="page_secret_no">не вышло</string>
+    <string name="page_met">Встреча: %s</string>
+    <string name="page_rolled">Выпало %1$d: %2$s</string>
+    <string name="page_seal_cracked">Под заклятием %1$d мин; печать трескалась: %2$d.</string>
+    <string name="page_trophy">Трофей</string>
+    <string name="page_place">На карте: %s</string>
+    <string name="map_title">Королевство</string>
+    <string name="map_empty">Каждый пройденный квест может поставить башню на этом острове. Берега здесь только ваши — их начертили в день основания отряда.</string>
+    <string name="map_list">Места</string>
+    <string name="treasury_title">Сокровищница</string>
+    <string name="schools_title">Восемь школ</string>
+    <string name="rank_none">Ещё не начато</string>
+    <string name="rank_of">%1$s %2$s</string>
+    <string name="deeds_title">Подвиги · %1$d из %2$d</string>
+    <string name="trophies_title">Трофеи</string>
+    <string name="trophies_empty">Пока ничего не принесено.</string>
+    <string name="bestiary_title">Бестиарий</string>
+    <string name="bestiary_empty">Ни один дракон ещё не повержен.</string>
+    <string name="bestiary_slain">Повержен %s</string>
+    <string name="dragons_open">К драконам</string>
+    <string name="tally_title">Счёт</string>
+    <string name="tally_quests">Квестов</string>
+    <string name="tally_seal">Минут тишины</string>
+    <string name="tally_secrets">Исполненных тайн</string>
+    <string name="tally_guessed">Угаданных тайн</string>
+    <string name="tally_encounters">Встреч</string>
+    <string name="tally_campfire">Вопросов у костра</string>
+    <string name="tally_twenties">Чистых двадцаток</string>
+    <string name="tally_ravens">Поручений ворона</string>
+    <string name="tally_letters">Писем</string>
+    <string name="arms_title">Герб отряда</string>
+    <string name="blazon_title">Описание герба</string>
+    <string name="blazon_field">Поле</string>
+    <string name="blazon_ordinary">Полоса</string>
+    <string name="blazon_beast">Зверь</string>
+    <string name="blazon_symbol">Знак</string>
+    <string name="blazon_metal">Металл</string>
+    <string name="blazon_both">%1$s и %2$s</string>
+    <string name="honours_title">Почести</string>
+    <string name="honour_bordure">Золотая кайма</string>
+    <string name="honour_helm">Шлем</string>
+    <string name="honour_mantling">Намёт</string>
+    <string name="honour_crown">Корона</string>
+    <string name="honour_laurel">Лавровый венок</string>
+    <string name="honour_level">%d ур.</string>
+    <string name="honour_stars">Звёзды за сказания: %d</string>
+    <string name="levels_title">Уровни</string>
+    <string name="motto_title">Девиз</string>
+    <string name="dragons_intro">Дракон — дело, которое вы оба откладываете: кладовка, налоговые бумаги, звонок родителям. Дайте ему жизни — каждый маленький шаг будет ударом.</string>
+    <string name="dragon_new">Назвать нового дракона</string>
+    <string name="dragon_name_field">Его имя</string>
+    <string name="dragon_deed_field">Что это на самом деле</string>
+    <string name="dragon_hp_pick">Жизней: %d</string>
+    <string name="dragon_hp_hint">Столько, сколько шагов понадобится.</string>
+    <string name="dragon_summon">Призвать дракона</string>
+    <string name="dragon_name">%1$s %2$s</string>
+    <string name="dragon_slain_stamp">Повержен</string>
+    <string name="strike">Удар! (+%d)</string>
+    <string name="strike_note">Что сделано (необязательно)</string>
+    <string name="strike_hint">Победа над ним даст %d опыта.</string>
+    <string name="strikes_title">Удары</string>
+    <string name="strike_blank">Удар</string>
+    <string name="strike_undo">Отменить последний удар</string>
+    <string name="dragon_forget">Забыть этого дракона</string>
+    <string name="dragon_forget_text">Он исчезнет вместе со всеми ударами.</string>
+    <string name="letter_intro">Напишите второму. Письмо запечатают гербом отряда, и ворон сохранит его до начала следующего квеста.</string>
+    <string name="letter_who">Кто пишет?</string>
+    <string name="letter_privacy">Второму не стоит заглядывать через плечо.</string>
+    <string name="letter_to">Для: %s</string>
+    <string name="letter_field">Письмо</string>
+    <string name="letter_seal">Запечатать</string>
+    <string name="letter_sent">Письмо у ворона.</string>
+    <string name="letter_another">Написать ещё</string>
+    <string name="letters_with_raven">У ворона</string>
+    <string name="letter_waiting_line">%1$s → %2$s · %3$s</string>
+    <string name="letters_read">Прочитанные письма</string>
+    <string name="letter_tap">Нажмите, чтобы перечитать</string>
+    <string name="settings_heroes">Герои</string>
+    <string name="settings_female">%s — она</string>
+    <string name="settings_feel">Ощущения</string>
+    <string name="settings_haptics">Вибрация</string>
+    <string name="settings_language">Язык</string>
+    <string name="lang_system">Системный</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="settings_backup">Резервная копия</string>
+    <string name="backup_text">Всё хранится только на этом телефоне: без аккаунта, облака и интернета. Сохраните копию хроники в файл. Фото трофеев в неё не входят.</string>
+    <string name="backup_export">Сохранить копию</string>
+    <string name="backup_import">Восстановить</string>
+    <string name="backup_replace">Это заменит всю хронику на этом телефоне той, что в файле.</string>
+    <string name="backup_saved">Сохранено</string>
+    <string name="backup_restored">Восстановлено</string>
+    <string name="backup_failed">Не получилось</string>
+    <string name="settings_about">Отряд из двух %s · часть Stillcraft</string>
+    <plurals name="campfire_count">
+        <item quantity="one">%d вопрос у костра</item>
+        <item quantity="few">%d вопроса у костра</item>
+        <item quantity="many">%d вопросов у костра</item>
+        <item quantity="other">%d вопроса у костра</item>
+    </plurals>
+    <plurals name="page_campfire">
+        <item quantity="one">%d вопрос у костра</item>
+        <item quantity="few">%d вопроса у костра</item>
+        <item quantity="many">%d вопросов у костра</item>
+        <item quantity="other">%d вопроса у костра</item>
+    </plurals>
+    <plurals name="done_times">
+        <item quantity="one">Пройден %d раз</item>
+        <item quantity="few">Пройден %d раза</item>
+        <item quantity="many">Пройден %d раз</item>
+        <item quantity="other">Пройден %d раза</item>
+    </plurals>
+    <plurals name="letters_waiting">
+        <item quantity="one">%d письмо ждёт у ворона</item>
+        <item quantity="few">%d письма ждут у ворона</item>
+        <item quantity="many">%d писем ждут у ворона</item>
+        <item quantity="other">%d письма ждут у ворона</item>
+    </plurals>
+    <plurals name="log_crack">
+        <item quantity="one">Печать треснула через %d минуту</item>
+        <item quantity="few">Печать треснула через %d минуты</item>
+        <item quantity="many">Печать треснула через %d минут</item>
+        <item quantity="other">Печать треснула через %d минуты</item>
+    </plurals>
+    <plurals name="log_seal">
+        <item quantity="one">Печать держалась %d минуту</item>
+        <item quantity="few">Печать держалась %d минуты</item>
+        <item quantity="many">Печать держалась %d минут</item>
+        <item quantity="other">Печать держалась %d минуты</item>
+    </plurals>
+    <plurals name="map_places">
+        <item quantity="one">%d место на карте</item>
+        <item quantity="few">%d места на карте</item>
+        <item quantity="many">%d мест на карте</item>
+        <item quantity="other">%d места на карте</item>
+    </plurals>
+    <plurals name="minutes_sealed">
+        <item quantity="one">%d минута тишины</item>
+        <item quantity="few">%d минуты тишины</item>
+        <item quantity="many">%d минут тишины</item>
+        <item quantity="other">%d минуты тишины</item>
+    </plurals>
+    <plurals name="page_seal_kept">
+        <item quantity="one">Печать устояла: %d минута тишины.</item>
+        <item quantity="few">Печать устояла: %d минуты тишины.</item>
+        <item quantity="many">Печать устояла: %d минут тишины.</item>
+        <item quantity="other">Печать устояла: %d минуты тишины.</item>
+    </plurals>
+    <plurals name="raven_streak">
+        <item quantity="one">%d день подряд</item>
+        <item quantity="few">%d дня подряд</item>
+        <item quantity="many">%d дней подряд</item>
+        <item quantity="other">%d дня подряд</item>
+    </plurals>
+    <plurals name="seal_kept_sub">
+        <item quantity="one">%d минута без единого взгляда в телефон.</item>
+        <item quantity="few">%d минуты без единого взгляда в телефон.</item>
+        <item quantity="many">%d минут без единого взгляда в телефон.</item>
+        <item quantity="other">%d минуты без единого взгляда в телефон.</item>
+    </plurals>
+    <plurals name="seal_broken_sub">
+        <item quantity="one">Она продержалась %d минуту. Хроника запомнит.</item>
+        <item quantity="few">Она продержалась %d минуты. Хроника запомнит.</item>
+        <item quantity="many">Она продержалась %d минут. Хроника запомнит.</item>
+        <item quantity="other">Она продержалась %d минуты. Хроника запомнит.</item>
+    </plurals>
+    <string-array name="hours">
+        <item>Рассвет · червлень</item>
+        <item>Полдень · лазурь</item>
+        <item>Лесной час · зелень</item>
+        <item>Сумерки · пурпур</item>
+        <item>Ночь · чернь</item>
+    </string-array>
+    <string-array name="ordinaries">
+        <item>Дорога · перевязь</item>
+        <item>Горы · стропило</item>
+        <item>Вода · волнистые пояса</item>
+        <item>Город · крест</item>
+        <item>Поля · пояс</item>
+    </string-array>
+    <string-array name="beasts">
+        <item>Сова</item>
+        <item>Лис</item>
+        <item>Кот</item>
+        <item>Олень</item>
+        <item>Медведь</item>
+        <item>Ворон</item>
+        <item>Заяц</item>
+        <item>Волк</item>
+    </string-array>
+    <string-array name="symbols">
+        <item>Звезда</item>
+        <item>Полумесяц</item>
+        <item>Сердце</item>
+        <item>Ключ</item>
+        <item>Роза</item>
+        <item>Солнце</item>
+        <item>Лист</item>
+        <item>Колокол</item>
+    </string-array>
+    <string-array name="ranks">
+        <item>Медный</item>
+        <item>Серебряный</item>
+        <item>Золотой</item>
+    </string-array>
+    <string-array name="schools">
+        <item>Странствия</item>
+        <item>Очаг</item>
+        <item>Ремёсла</item>
+        <item>Искусства</item>
+        <item>Дикие земли</item>
+        <item>Знания</item>
+        <item>Дерзость</item>
+        <item>Нежность</item>
+    </string-array>
+    <string-array name="schools_of">
+        <item>Странствий</item>
+        <item>Очага</item>
+        <item>Ремёсел</item>
+        <item>Искусств</item>
+        <item>Диких земель</item>
+        <item>Знаний</item>
+        <item>Дерзости</item>
+        <item>Нежности</item>
+    </string-array>
+    <string-array name="rank_titles">
+        <item>Ученики</item>
+        <item>Подмастерья</item>
+        <item>Знатоки</item>
+        <item>Мастера</item>
+        <item>Магистры</item>
+    </string-array>
+    <string-array name="level_titles">
+        <item>Бродяги</item>
+        <item>Попутчики</item>
+        <item>Хранители огня</item>
+        <item>Следопыты</item>
+        <item>Связанные клятвой</item>
+        <item>Странствующие рыцари</item>
+        <item>Фонареносцы</item>
+        <item>Стражи дороги</item>
+        <item>Картографы</item>
+        <item>Знающие драконов</item>
+        <item>Знаменосцы</item>
+        <item>Два клинка</item>
+        <item>Стражи королевства</item>
+        <item>Сказители</item>
+        <item>Звездочёты</item>
+        <item>Венценосные странники</item>
+        <item>Вестники рассвета</item>
+        <item>Хранители пламени</item>
+        <item>Живые легенды</item>
+        <item>Отряд из двух</item>
+    </string-array>
+    <string-array name="deed_names">
+        <item>Первый шаг</item>
+        <item>Обстрелянные</item>
+        <item>Ветераны дороги</item>
+        <item>Двадцать пять сказаний</item>
+        <item>Полсотни</item>
+        <item>Золотая печать</item>
+        <item>Восемь дорог</item>
+        <item>Магистры</item>
+        <item>Час тишины</item>
+        <item>Хранители тишины</item>
+        <item>Нетерпеливые пальцы</item>
+        <item>Читающие мысли</item>
+        <item>Провидцы</item>
+        <item>Королевские шпионы</item>
+        <item>Чистая двадцатка</item>
+        <item>Чистая единица</item>
+        <item>Много встреч</item>
+        <item>Сказители у огня</item>
+        <item>Драконоборцы</item>
+        <item>Гроза змеев</item>
+        <item>Сказание завершено</item>
+        <item>Три сказания</item>
+        <item>Неделя ворона</item>
+        <item>Друзья воронов</item>
+        <item>Под сургучом</item>
+        <item>Картографы</item>
+        <item>Собиратели</item>
+        <item>Четыре времени года</item>
+        <item>После полуночи</item>
+        <item>Десятый уровень</item>
+        <item>Легенда</item>
+    </string-array>
+    <string-array name="deed_texts">
+        <item>Пройдите первый квест.</item>
+        <item>Пройдите 5 квестов.</item>
+        <item>Пройдите 10 квестов.</item>
+        <item>Пройдите 25 квестов.</item>
+        <item>Пройдите 50 квестов.</item>
+        <item>Пройдите золотой квест.</item>
+        <item>Пройдите квест каждой школы.</item>
+        <item>Достигните V ранга в любой школе.</item>
+        <item>Удержите печать целый час.</item>
+        <item>Удержите печать 10 раз.</item>
+        <item>Сломайте печать 3 раза.</item>
+        <item>Угадайте тайны друг друга в одном квесте.</item>
+        <item>Угадайте 10 тайн.</item>
+        <item>Полностью исполните 10 тайн.</item>
+        <item>Выбросьте 20.</item>
+        <item>Выбросьте 1.</item>
+        <item>Встретьте 10 встреч на дороге.</item>
+        <item>Ответьте на 50 вопросов у костра.</item>
+        <item>Победите дракона.</item>
+        <item>Победите 3 драконов.</item>
+        <item>Завершите сказание.</item>
+        <item>Завершите все три сказания.</item>
+        <item>Исполняйте поручение ворона 7 дней подряд.</item>
+        <item>Исполните 30 поручений ворона.</item>
+        <item>Отправьте письмо с вороном.</item>
+        <item>Поставьте 10 башен на карте.</item>
+        <item>Принесите 10 трофеев.</item>
+        <item>Ходите в квесты во все четыре времени года.</item>
+        <item>Вернитесь домой не в тот день, когда вышли.</item>
+        <item>Достигните 10 уровня.</item>
+        <item>Достигните 20 уровня.</item>
+    </string-array>
+    <string-array name="xp_reasons">
+        <item>Сам квест</item>
+        <item>Задачи</item>
+        <item>Исполненные тайны</item>
+        <item>Угаданные тайны</item>
+        <item>Минуты тишины</item>
+        <item>Нетронутая печать</item>
+        <item>Встречи</item>
+        <item>У костра</item>
+        <item>Глава сказания</item>
+    </string-array>
+    <string-array name="page_guessed">
+        <item>Ни одну тайну не угадали.</item>
+        <item>Одну тайну угадали.</item>
+        <item>Обе тайны угаданы.</item>
+    </string-array>
+    <string-array name="trophy_stats">
+        <item>к отваге</item>
+        <item>к нежности</item>
+        <item>к удаче</item>
+        <item>к терпению</item>
+        <item>к остроумию</item>
+        <item>к аппетиту</item>
+        <item>к жажде странствий</item>
+        <item>к ночному зрению</item>
+        <item>к обаянию</item>
+        <item>к упрямству</item>
+        <item>к памяти</item>
+        <item>к спокойствию</item>
+        <item>к смеху</item>
+        <item>к теплу</item>
+        <item>к любопытству</item>
+        <item>к чувству направления</item>
+    </string-array>
+    <string-array name="trophy_curses">
+        <item>прячется в карманах</item>
+        <item>будит голод по ночам</item>
+        <item>напевает, когда никто не слушает</item>
+        <item>теряется по вторникам</item>
+        <item>приманивает котов</item>
+        <item>слегка пахнет дождём</item>
+        <item>заставляет соглашаться на десерт</item>
+        <item>находится в стирке</item>
+        <item>дуется в ящиках стола</item>
+        <item>чуть светится перед снегом</item>
+        <item>тянет вернуться назад</item>
+        <item>будит за минуту до будильника</item>
+        <item>его невозможно выбросить</item>
+        <item>заставляет петь в душе</item>
+        <item>всегда оказывается на подоконнике</item>
+        <item>заставляет опаздывать, но совсем чуть-чуть</item>
+    </string-array>
+    <string-array name="place_kinds">
+        <item>Таверна</item>
+        <item>Мост</item>
+        <item>Холм</item>
+        <item>Башня</item>
+        <item>Сад</item>
+        <item>Колодец</item>
+        <item>Ворота</item>
+        <item>Лавка</item>
+        <item>Брод</item>
+        <item>Роща</item>
+        <item>Лестница</item>
+        <item>Гавань</item>
+    </string-array>
+    <string-array name="place_of">
+        <item>Сонной Цапли</item>
+        <item>Двух Зонтов</item>
+        <item>Раннего Солнца</item>
+        <item>Потерянных Пуговиц</item>
+        <item>Тихих Скамеек</item>
+        <item>Ночного Чая</item>
+        <item>Серого Кота</item>
+        <item>Первого Снега</item>
+        <item>Долгого Смеха</item>
+        <item>Кривого Фонаря</item>
+        <item>Тёплых Ладоней</item>
+        <item>Неверного Поворота</item>
+        <item>Последнего Трамвая</item>
+        <item>Терпеливой Луны</item>
+        <item>Подгоревших Тостов</item>
+        <item>Шепчущих Камышей</item>
+    </string-array>
+    <string-array name="dragon_names">
+        <item>Пылевик</item>
+        <item>Бумагожор</item>
+        <item>Откладырь</item>
+        <item>Носкоед</item>
+        <item>Хламозавр</item>
+        <item>Квитанциус</item>
+        <item>Тягомот</item>
+        <item>Позжевик</item>
+        <item>Ворчун</item>
+        <item>Путаник</item>
+        <item>Мрачнохвост</item>
+        <item>Ржавокоготь</item>
+    </string-array>
+    <string-array name="dragon_titles">
+        <item>Неоплаченный</item>
+        <item>Неразобранный</item>
+        <item>Просроченный</item>
+        <item>Кладовочный</item>
+        <item>Бесконечный</item>
+        <item>Неотвеченный</item>
+        <item>Отложенный</item>
+        <item>Пыльный</item>
+        <item>Многобумажный</item>
+        <item>Неприбранный</item>
+    </string-array>
+</resources>

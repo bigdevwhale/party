@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Party of Two</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="settings">Settings</string>
+    <string name="quoted">“%s”</string>
+    <string name="hero_a">First hero</string>
+    <string name="hero_b">Second hero</string>
+    <string name="party_names">%1$s &amp; %2$s</string>
+    <string name="level_line">Level %1$d · %2$s</string>
+    <string name="xp_line">%1$d / %2$d XP</string>
+    <string name="xp_max">%d XP · the highest level</string>
+    <string name="tab_tavern">Tavern</string>
+    <string name="tab_chronicle">Chronicle</string>
+    <string name="tab_map">Realm</string>
+    <string name="tab_treasury">Treasury</string>
+    <string name="found_eyebrow">A party of two</string>
+    <string name="found_title">Every date is a quest</string>
+    <string name="found_text">You two are a party of heroes. Dates are quests out in the real world: a walk becomes a patrol of the lantern road, a supper becomes a feast at the tavern. The book is your game master — it deals each of you a secret objective, sends wandering encounters, rolls the die of fate and keeps the chronicle of everything you lived through together.</string>
+    <string name="found_how">First, the party needs its arms. Each of you will answer five questions alone — where you agree, the shield is one; where you don\'t, it splits and shows both.</string>
+    <string name="found_begin">Found the party</string>
+    <string name="found_heroes_eyebrow">The heroes</string>
+    <string name="found_heroes">Who sets out?</string>
+    <string name="found_name_a">First hero\'s name</string>
+    <string name="found_name_b">Second hero\'s name</string>
+    <string name="found_he">he</string>
+    <string name="found_she">she</string>
+    <string name="found_pronoun_why">Only so the Russian text speaks to each of you correctly.</string>
+    <string name="found_question_n">Question %1$d of %2$d</string>
+    <string name="found_for">For %s, alone</string>
+    <string name="found_alone_a">The other one looks away. Answer for yourself.</string>
+    <string name="found_alone_b">Now pass the phone. Don\'t look at the first answer.</string>
+    <string name="ask_hour">At what hour are the two of you at your best?</string>
+    <string name="ask_ordinary">Where would you set out together?</string>
+    <string name="ask_beast">Which beast is your party?</string>
+    <string name="ask_symbol">Which sign would you carry?</string>
+    <string name="ask_metal">Gold or silver?</string>
+    <string name="metal_gold">Gold</string>
+    <string name="metal_silver">Silver</string>
+    <string name="found_arms_eyebrow">The arms</string>
+    <string name="found_arms">Your coat of arms</string>
+    <string name="arms_one_field">You chose the same hour: one field.</string>
+    <string name="arms_split_field">Different hours: the field is split down the middle, one half each.</string>
+    <string name="arms_split_ordinary">Different roads: half of each joined in the middle, as old heralds joined two houses.</string>
+    <string name="arms_one_beast">The same beast: it stands alone in the middle.</string>
+    <string name="arms_two_beasts">Two beasts: they face each other.</string>
+    <string name="arms_two_symbols">Two signs, side by side in the chief.</string>
+    <string name="arms_two_metals">Gold and silver both: the band in one, the charges in the other.</string>
+    <string name="arms_agreed">You agreed on %d of five.</string>
+    <string name="arms_grows">The arms will grow: a border, a helm, a crown and more, as the party goes up in levels.</string>
+    <string name="found_motto_eyebrow">The motto</string>
+    <string name="found_motto">And a motto, written together</string>
+    <string name="found_motto_text">A line to carry under the shield. Grand or silly — it\'s yours.</string>
+    <string name="found_motto_field">Motto</string>
+    <string name="found_motto_hint">You can change it later.</string>
+    <string name="motto_placeholder">…</string>
+    <string name="found_seal">Seal the founding</string>
+    <string name="on_the_road">The party is on the road</string>
+    <string name="on_the_road_since">Set out %s</string>
+    <string name="on_the_road_back">Back to the road</string>
+    <string name="raven_title">The raven\'s errand</string>
+    <string name="raven_do">Done (+%d XP)</string>
+    <string name="raven_done">Done</string>
+    <string name="raven_undo">undo</string>
+    <string name="campaign_title">The tale</string>
+    <string name="campaign_progress">%1$d / %2$d</string>
+    <string name="campaign_chapter">Chapter %1$s. %2$s</string>
+    <string name="campaign_wait">The next chapter will be posted on %s. The tale needs a few days to breathe.</string>
+    <string name="campaign_locked">Opens when the tale before it is finished, or at level %d.</string>
+    <string name="campaign_done">Told</string>
+    <string name="campaigns_title">Tales</string>
+    <string name="board_title">The quest board</string>
+    <string name="board_sub">New notices every Monday.</string>
+    <string name="board_tear">Tear down (%d)</string>
+    <string name="notice_meta">%1$s · %2$s</string>
+    <string name="done_stamp">Done</string>
+    <string name="book_open">All quests</string>
+    <string name="custom_open">Our own quest</string>
+    <string name="dragons_title">The party\'s dragons</string>
+    <string name="dragons_none">No dragon has been named yet.</string>
+    <string name="dragons_none_sub">A dragon is a thing you both keep putting off. Name it and wear it down together.</string>
+    <string name="dragon_hp">%1$d of %2$d hit points left</string>
+    <string name="letters_title">Letters by raven</string>
+    <string name="letters_write">Write a sealed letter</string>
+    <string name="letters_sub">The raven brings it at the start of the next quest.</string>
+    <string name="book_title">The book of quests</string>
+    <string name="book_count">%1$d of %2$d quests done</string>
+    <string name="book_all">All</string>
+    <string name="notice_title">A notice</string>
+    <string name="notice_tasks">Tasks</string>
+    <string name="notice_secret_hint">When you take it up, each of you gets a secret objective. At the end you\'ll try to guess each other\'s.</string>
+    <string name="notice_take">Take up the quest</string>
+    <string name="notice_busy">The party is already on a road</string>
+    <string name="flag_home">can be done at home</string>
+    <string name="flag_out">outdoors</string>
+    <string name="flag_evening">best in the evening</string>
+    <string name="flag_money">a few coins</string>
+    <string name="custom_intro">Your own plan for the evening, written up as a quest. The secrets, the die and the encounters come along all the same.</string>
+    <string name="custom_title">What\'s the quest called?</string>
+    <string name="custom_tasks">Tasks, one per line</string>
+    <string name="custom_school">School</string>
+    <string name="custom_rank">Size</string>
+    <string name="custom_quest">A quest of our own</string>
+    <string name="custom_in_which">in which the party undertook “%s”</string>
+    <string name="oath_bar">The oath</string>
+    <string name="oath_eyebrow">Before the road</string>
+    <string name="oath_words">%1$s and %2$s, put your thumbs on the seal together and hold it. From here, the phones serve the quest.</string>
+    <string name="oath_hold">Both thumbs on the seal</string>
+    <string name="oath_one_more">One more thumb…</string>
+    <string name="oath_alone">Can\'t hold it together? Swear in words</string>
+    <string name="letter_raven">The raven has come</string>
+    <string name="letter_for">A letter for %s</string>
+    <string name="letter_only">Only %s breaks the seal.</string>
+    <string name="letter_break">Break the seal</string>
+    <string name="letter_next">Next letter</string>
+    <string name="letter_done">To the secrets</string>
+    <string name="secret_eyebrow">Secret %d of 2</string>
+    <string name="secret_pass">Give the phone to %s</string>
+    <string name="secret_no_peeking">%s turns away and doesn\'t look.</string>
+    <string name="secret_hold">Hold to read your secret objective</string>
+    <string name="secret_rules">Do it before the end of the quest without being found out. At the end the other will try to guess it.</string>
+    <string name="secret_got_it">I\'ll remember</string>
+    <string name="secret_other">Not possible today — another one</string>
+    <string name="journey_bar">On the road</string>
+    <string name="journey_since">Set out %s</string>
+    <string name="journey_tools">The game master</string>
+    <string name="journey_log">Margins</string>
+    <string name="journey_home">Head home</string>
+    <string name="journey_abandon">Abandon the quest</string>
+    <string name="abandon_title">Abandon the quest?</string>
+    <string name="abandon_text">It won\'t go into the chronicle, and everything that happened on this road is forgotten.</string>
+    <string name="tool_die">Die of fate</string>
+    <string name="tool_die_sub">settle a dispute</string>
+    <string name="tool_encounter">Encounter</string>
+    <string name="tool_encounter_sub">who\'s on the road?</string>
+    <string name="tool_campfire">Campfire</string>
+    <string name="tool_campfire_sub">questions by the fire</string>
+    <string name="tool_seal">Spell of silence</string>
+    <string name="tool_seal_sub">phones face down</string>
+    <string name="tool_peek">Look at my secret again</string>
+    <string name="back_to_road">Back to the road</string>
+    <string name="die_eyebrow">The die of fate</string>
+    <string name="die_text">Agree first what high and low mean. A 20 brings a boon, a 1 a mishap.</string>
+    <string name="die_roll">Roll</string>
+    <string name="die_again">Roll again</string>
+    <string name="die_high">High: fate leans the first way.</string>
+    <string name="die_low">Low: fate leans the other way.</string>
+    <string name="die_twenty">A natural twenty</string>
+    <string name="die_one">A natural one</string>
+    <string name="encounter_eyebrow">On the road</string>
+    <string name="encounter_wandered">While you were away from the book…</string>
+    <string name="encounter_done">Done</string>
+    <string name="encounter_other">Pass by — someone else</string>
+    <string name="campfire_eyebrow">By the campfire</string>
+    <string name="campfire_both">Both answer, one after the other.</string>
+    <string name="campfire_next">Another log on the fire</string>
+    <string name="campfire_skip">Not this one</string>
+    <string name="campfire_rise">Back on the road</string>
+    <string name="peek_eyebrow">A secret</string>
+    <string name="peek_who">Whose secret?</string>
+    <string name="seal_eyebrow">The spell of silence</string>
+    <string name="seal_text">Lay the phone face down on the table and keep it there. Any other phones too. Pick how long the spell will last.</string>
+    <string name="seal_minutes">%d min</string>
+    <string name="seal_cast">Cast the spell</string>
+    <string name="seal_lay_down">Now turn the phone face down.</string>
+    <string name="seal_lay_sub">The seal holds for %d minutes. It will buzz once when the time is up.</string>
+    <string name="seal_held">The seal holds.</string>
+    <string name="seal_kept">The seal held</string>
+    <string name="seal_broken">The seal cracked</string>
+    <string name="seal_again">Cast it again</string>
+    <string name="log_roll">Rolled %d</string>
+    <string name="home_confirm_title">Head home?</string>
+    <string name="home_confirm_text">On the way home you\'ll guess each other\'s secrets and write the chapter.</string>
+    <string name="home_confirm_yes">Head home</string>
+    <string name="home_eyebrow">The way home</string>
+    <string name="guess_title">%1$s guesses %2$s\'s secret</string>
+    <string name="guess_sub">One of these was the secret objective. Which?</string>
+    <string name="guess_real">This was it</string>
+    <string name="guess_hit">Guessed!</string>
+    <string name="guess_miss">Missed — well hidden.</string>
+    <string name="guess_owned">%s, own up: did it come off?</string>
+    <string name="owned_yes">Yes</string>
+    <string name="owned_partly">Partly</string>
+    <string name="owned_no">No</string>
+    <string name="lines_bar">The chronicle</string>
+    <string name="lines_eyebrow">A new chapter</string>
+    <string name="lines_sub">Each of you writes a line or two: what you want to remember from today.</string>
+    <string name="lines_of">%s\'s line</string>
+    <string name="trophy_bar">A trophy</string>
+    <string name="trophy_eyebrow">From the road</string>
+    <string name="trophy_title">What did you bring back?</string>
+    <string name="trophy_sub">A ticket, a pebble, a receipt, a leaf. Photograph it and give it a name; it goes into the treasury.</string>
+    <string name="trophy_photo">Photograph it</string>
+    <string name="trophy_name">The trophy\'s name</string>
+    <string name="trophy_lore_title">Its lore</string>
+    <string name="trophy_lore">+%1$d %2$s. Curse: %3$s.</string>
+    <string name="trophy_reroll">Other lore</string>
+    <string name="trophy_none">No trophy this time</string>
+    <string name="place_bar">The map</string>
+    <string name="place_sub">Where on your realm did this happen? Tap the map to raise a tower there.</string>
+    <string name="place_name">The place\'s name</string>
+    <string name="place_name_fmt">%1$s %2$s</string>
+    <string name="place_finish">Into the chronicle</string>
+    <string name="place_skip">Leave it off the map</string>
+    <string name="rewards_bar">The reckoning</string>
+    <string name="rewards_eyebrow">Written into the chronicle</string>
+    <string name="rewards_total">Experience</string>
+    <string name="rewards_level">A new level</string>
+    <string name="rewards_arms_grew">The arms have grown.</string>
+    <string name="rewards_rank">A new rank</string>
+    <string name="rewards_deeds">New deeds</string>
+    <string name="rewards_done">To the tavern</string>
+    <string name="chapter_heading">Chapter %1$s, %2$s</string>
+    <string name="chronicle_title">The chronicle</string>
+    <string name="chronicle_page">page %1$d of %2$d</string>
+    <string name="prologue_eyebrow">Prologue</string>
+    <string name="prologue_title">The founding of the party</string>
+    <string name="prologue_text">Here begins the chronicle of the party of %1$s and %2$s, founded on %3$s, who swore to go on quests together and to write down everything that befell them.</string>
+    <string name="prologue_empty">The pages after this one are still blank.</string>
+    <string name="prologue_swipe">Turn the page →</string>
+    <string name="page_margins">In the margins</string>
+    <string name="page_tasks">%1$d of %2$d tasks done</string>
+    <string name="page_secret">%1$s\'s secret: %2$s — %3$s</string>
+    <string name="page_secret_yes">done</string>
+    <string name="page_secret_partly">half done</string>
+    <string name="page_secret_no">not done</string>
+    <string name="page_met">Met: %s</string>
+    <string name="page_rolled">Rolled a %1$d: %2$s</string>
+    <string name="page_seal_cracked">Under the spell for %1$d min; the seal cracked %2$d time(s).</string>
+    <string name="page_trophy">Trophy</string>
+    <string name="page_place">On the map: %s</string>
+    <string name="map_title">The realm</string>
+    <string name="map_empty">Every quest you finish can raise a tower on this island. The coastline is yours alone: it was drawn the day the party was founded.</string>
+    <string name="map_list">Places</string>
+    <string name="treasury_title">The treasury</string>
+    <string name="schools_title">The eight schools</string>
+    <string name="rank_none">Not yet begun</string>
+    <string name="rank_of">%1$s of %2$s</string>
+    <string name="deeds_title">Deeds · %1$d of %2$d</string>
+    <string name="trophies_title">Trophies</string>
+    <string name="trophies_empty">Nothing brought back yet.</string>
+    <string name="bestiary_title">Bestiary</string>
+    <string name="bestiary_empty">No dragon slain yet.</string>
+    <string name="bestiary_slain">Slain %s</string>
+    <string name="dragons_open">To the dragons</string>
+    <string name="tally_title">The tally</string>
+    <string name="tally_quests">Quests</string>
+    <string name="tally_seal">Minutes of silence</string>
+    <string name="tally_secrets">Secrets carried out</string>
+    <string name="tally_guessed">Secrets guessed</string>
+    <string name="tally_encounters">Encounters</string>
+    <string name="tally_campfire">Questions by the fire</string>
+    <string name="tally_twenties">Natural twenties</string>
+    <string name="tally_ravens">Raven\'s errands</string>
+    <string name="tally_letters">Letters</string>
+    <string name="arms_title">The party\'s arms</string>
+    <string name="blazon_title">The blazon</string>
+    <string name="blazon_field">Field</string>
+    <string name="blazon_ordinary">Band</string>
+    <string name="blazon_beast">Beast</string>
+    <string name="blazon_symbol">Sign</string>
+    <string name="blazon_metal">Metal</string>
+    <string name="blazon_both">%1$s and %2$s</string>
+    <string name="honours_title">Honours</string>
+    <string name="honour_bordure">A golden border</string>
+    <string name="honour_helm">A helm</string>
+    <string name="honour_mantling">Mantling</string>
+    <string name="honour_crown">A crown</string>
+    <string name="honour_laurel">A laurel wreath</string>
+    <string name="honour_level">level %d</string>
+    <string name="honour_stars">Stars for tales told: %d</string>
+    <string name="levels_title">Levels</string>
+    <string name="motto_title">The motto</string>
+    <string name="dragons_intro">A dragon is a thing you both keep putting off: a box room, the tax papers, a call to the parents. Give it hit points; each small step is a strike.</string>
+    <string name="dragon_new">Name a new dragon</string>
+    <string name="dragon_name_field">Its name</string>
+    <string name="dragon_deed_field">What it really is</string>
+    <string name="dragon_hp_pick">Hit points: %d</string>
+    <string name="dragon_hp_hint">As many as the steps it\'ll take.</string>
+    <string name="dragon_summon">Summon the dragon</string>
+    <string name="dragon_name">%1$s %2$s</string>
+    <string name="dragon_slain_stamp">Slain</string>
+    <string name="strike">Strike! (+%d XP)</string>
+    <string name="strike_note">What was done (optional)</string>
+    <string name="strike_hint">Slaying it is worth %d XP.</string>
+    <string name="strikes_title">Strikes</string>
+    <string name="strike_blank">A strike</string>
+    <string name="strike_undo">Take back the last strike</string>
+    <string name="dragon_forget">Forget this dragon</string>
+    <string name="dragon_forget_text">It disappears with all its strikes.</string>
+    <string name="letter_intro">Write to the other one. The letter is sealed with the party\'s arms and the raven keeps it until the next quest begins.</string>
+    <string name="letter_who">Who is writing?</string>
+    <string name="letter_privacy">The other one shouldn\'t look over your shoulder.</string>
+    <string name="letter_to">To %s</string>
+    <string name="letter_field">The letter</string>
+    <string name="letter_seal">Seal it</string>
+    <string name="letter_sent">The raven has it.</string>
+    <string name="letter_another">Write another</string>
+    <string name="letters_with_raven">With the raven</string>
+    <string name="letter_waiting_line">%1$s → %2$s · %3$s</string>
+    <string name="letters_read">Letters already read</string>
+    <string name="letter_tap">Tap to read again</string>
+    <string name="settings_heroes">The heroes</string>
+    <string name="settings_female">%s — she</string>
+    <string name="settings_feel">Feel</string>
+    <string name="settings_haptics">Vibration</string>
+    <string name="settings_language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ru">Русский</string>
+    <string name="settings_backup">Backup</string>
+    <string name="backup_text">Everything stays on this phone: no account, no cloud, no internet. Keep a copy of the chronicle in a file. Trophy photos aren\'t included.</string>
+    <string name="backup_export">Save a copy</string>
+    <string name="backup_import">Restore</string>
+    <string name="backup_replace">This replaces the whole chronicle on this phone with the one in the file.</string>
+    <string name="backup_saved">Saved</string>
+    <string name="backup_restored">Restored</string>
+    <string name="backup_failed">That didn\'t work</string>
+    <string name="settings_about">Party of Two %s · part of Stillcraft</string>
+    <plurals name="campfire_count">
+        <item quantity="one">%d question by the fire</item>
+        <item quantity="other">%d questions by the fire</item>
+    </plurals>
+    <plurals name="page_campfire">
+        <item quantity="one">%d question by the fire</item>
+        <item quantity="other">%d questions by the fire</item>
+    </plurals>
+    <plurals name="done_times">
+        <item quantity="one">Done once</item>
+        <item quantity="other">Done %d times</item>
+    </plurals>
+    <plurals name="letters_waiting">
+        <item quantity="one">%d letter waits with the raven</item>
+        <item quantity="other">%d letters wait with the raven</item>
+    </plurals>
+    <plurals name="log_crack">
+        <item quantity="one">The seal cracked after %d minute</item>
+        <item quantity="other">The seal cracked after %d minutes</item>
+    </plurals>
+    <plurals name="log_seal">
+        <item quantity="one">The seal held for %d minute</item>
+        <item quantity="other">The seal held for %d minutes</item>
+    </plurals>
+    <plurals name="map_places">
+        <item quantity="one">%d place on the map</item>
+        <item quantity="other">%d places on the map</item>
+    </plurals>
+    <plurals name="minutes_sealed">
+        <item quantity="one">%d minute of silence</item>
+        <item quantity="other">%d minutes of silence</item>
+    </plurals>
+    <plurals name="page_seal_kept">
+        <item quantity="one">The seal held: %d minute of silence.</item>
+        <item quantity="other">The seal held: %d minutes of silence.</item>
+    </plurals>
+    <plurals name="raven_streak">
+        <item quantity="one">%d day in a row</item>
+        <item quantity="other">%d days in a row</item>
+    </plurals>
+    <plurals name="seal_kept_sub">
+        <item quantity="one">%d minute without a single glance at a phone.</item>
+        <item quantity="other">%d minutes without a single glance at a phone.</item>
+    </plurals>
+    <plurals name="seal_broken_sub">
+        <item quantity="one">It held for %d minute. The chronicle will remember.</item>
+        <item quantity="other">It held for %d minutes. The chronicle will remember.</item>
+    </plurals>
+    <string-array name="hours">
+        <item>Dawn · red</item>
+        <item>Noon · blue</item>
+        <item>The green hour · green</item>
+        <item>Dusk · purple</item>
+        <item>Night · black</item>
+    </string-array>
+    <string-array name="ordinaries">
+        <item>The road · a bend</item>
+        <item>The mountains · a chevron</item>
+        <item>The water · wavy bars</item>
+        <item>The city · a cross</item>
+        <item>The fields · a fess</item>
+    </string-array>
+    <string-array name="beasts">
+        <item>Owl</item>
+        <item>Fox</item>
+        <item>Cat</item>
+        <item>Stag</item>
+        <item>Bear</item>
+        <item>Raven</item>
+        <item>Hare</item>
+        <item>Wolf</item>
+    </string-array>
+    <string-array name="symbols">
+        <item>Star</item>
+        <item>Crescent</item>
+        <item>Heart</item>
+        <item>Key</item>
+        <item>Rose</item>
+        <item>Sun</item>
+        <item>Leaf</item>
+        <item>Bell</item>
+    </string-array>
+    <string-array name="ranks">
+        <item>Copper</item>
+        <item>Silver</item>
+        <item>Gold</item>
+    </string-array>
+    <string-array name="schools">
+        <item>The Road</item>
+        <item>The Hearth</item>
+        <item>Craft</item>
+        <item>The Arts</item>
+        <item>The Wilds</item>
+        <item>Lore</item>
+        <item>Daring</item>
+        <item>Tenderness</item>
+    </string-array>
+    <string-array name="schools_of">
+        <item>the Road</item>
+        <item>the Hearth</item>
+        <item>Craft</item>
+        <item>the Arts</item>
+        <item>the Wilds</item>
+        <item>Lore</item>
+        <item>Daring</item>
+        <item>Tenderness</item>
+    </string-array>
+    <string-array name="rank_titles">
+        <item>Novices</item>
+        <item>Adepts</item>
+        <item>Journeymen</item>
+        <item>Masters</item>
+        <item>Grandmasters</item>
+    </string-array>
+    <string-array name="level_titles">
+        <item>Wanderers</item>
+        <item>Fellow travellers</item>
+        <item>Fire-tenders</item>
+        <item>Pathfinders</item>
+        <item>Sworn companions</item>
+        <item>Knights errant</item>
+        <item>Lantern-bearers</item>
+        <item>Keepers of the road</item>
+        <item>Mapmakers</item>
+        <item>Dragon-wary</item>
+        <item>Banner-bearers</item>
+        <item>Two blades</item>
+        <item>Wardens of the realm</item>
+        <item>Tale-weavers</item>
+        <item>Starfinders</item>
+        <item>Crowned wanderers</item>
+        <item>Heralds of dawn</item>
+        <item>Keepers of the flame</item>
+        <item>Living legends</item>
+        <item>The Party of Two</item>
+    </string-array>
+    <string-array name="deed_names">
+        <item>The First Step</item>
+        <item>Seasoned</item>
+        <item>Veterans of the Road</item>
+        <item>Twenty-Five Tales</item>
+        <item>Half a Hundred</item>
+        <item>The Gold Seal</item>
+        <item>Eight Roads</item>
+        <item>Grandmasters</item>
+        <item>An Hour of Silence</item>
+        <item>Keepers of Quiet</item>
+        <item>Itchy Fingers</item>
+        <item>Mind Readers</item>
+        <item>Seers</item>
+        <item>Royal Spies</item>
+        <item>Natural Twenty</item>
+        <item>Natural One</item>
+        <item>Many Meetings</item>
+        <item>Fireside Tellers</item>
+        <item>Dragonslayers</item>
+        <item>Bane of Wyrms</item>
+        <item>The Tale Complete</item>
+        <item>Three Tales</item>
+        <item>Raven\'s Week</item>
+        <item>Friends of Ravens</item>
+        <item>Sealed with Wax</item>
+        <item>Cartographers</item>
+        <item>Hoarders</item>
+        <item>Four Seasons</item>
+        <item>Past Midnight</item>
+        <item>Tenth Level</item>
+        <item>Legend</item>
+    </string-array>
+    <string-array name="deed_texts">
+        <item>Finish your first quest.</item>
+        <item>Finish 5 quests.</item>
+        <item>Finish 10 quests.</item>
+        <item>Finish 25 quests.</item>
+        <item>Finish 50 quests.</item>
+        <item>Finish a gold quest.</item>
+        <item>Do a quest of every school.</item>
+        <item>Reach rank V in any school.</item>
+        <item>Keep the seal unbroken for an hour.</item>
+        <item>Keep 10 seals unbroken.</item>
+        <item>Crack the seal 3 times.</item>
+        <item>Both guess each other\'s secrets on one quest.</item>
+        <item>Guess 10 secrets.</item>
+        <item>Carry out 10 secrets in full.</item>
+        <item>Roll a 20.</item>
+        <item>Roll a 1.</item>
+        <item>Meet 10 encounters.</item>
+        <item>Answer 50 questions by the fire.</item>
+        <item>Slay a dragon.</item>
+        <item>Slay 3 dragons.</item>
+        <item>Finish a tale.</item>
+        <item>Finish all three tales.</item>
+        <item>Do the raven\'s errand 7 days in a row.</item>
+        <item>Do 30 raven\'s errands.</item>
+        <item>Send a letter by raven.</item>
+        <item>Raise 10 towers on the map.</item>
+        <item>Bring back 10 trophies.</item>
+        <item>Go on quests in all four seasons.</item>
+        <item>Come home on a different day than you set out.</item>
+        <item>Reach level 10.</item>
+        <item>Reach level 20.</item>
+    </string-array>
+    <string-array name="xp_reasons">
+        <item>The quest itself</item>
+        <item>Tasks</item>
+        <item>Secrets carried out</item>
+        <item>Secrets guessed</item>
+        <item>Minutes of silence</item>
+        <item>An unbroken seal</item>
+        <item>Encounters</item>
+        <item>By the fire</item>
+        <item>A chapter of the tale</item>
+    </string-array>
+    <string-array name="page_guessed">
+        <item>Neither secret was guessed.</item>
+        <item>One secret was guessed.</item>
+        <item>Both secrets were guessed.</item>
+    </string-array>
+    <string-array name="trophy_stats">
+        <item>to Courage</item>
+        <item>to Tenderness</item>
+        <item>to Luck</item>
+        <item>to Patience</item>
+        <item>to Wit</item>
+        <item>to Appetite</item>
+        <item>to Wanderlust</item>
+        <item>to Night Vision</item>
+        <item>to Charm</item>
+        <item>to Stubbornness</item>
+        <item>to Memory</item>
+        <item>to Calm</item>
+        <item>to Laughter</item>
+        <item>to Warmth</item>
+        <item>to Curiosity</item>
+        <item>to Sense of Direction</item>
+    </string-array>
+    <string-array name="trophy_curses">
+        <item>hides in pockets</item>
+        <item>makes you hungry at night</item>
+        <item>hums when nobody listens</item>
+        <item>gets lost on Tuesdays</item>
+        <item>attracts cats</item>
+        <item>smells faintly of rain</item>
+        <item>makes you say yes to dessert</item>
+        <item>turns up in the washing</item>
+        <item>sulks in drawers</item>
+        <item>glows a little before snow</item>
+        <item>makes you want to go back</item>
+        <item>wakes you a minute before the alarm</item>
+        <item>cannot be thrown away</item>
+        <item>makes you sing in the shower</item>
+        <item>always ends up on the windowsill</item>
+        <item>makes you late, but only a little</item>
+    </string-array>
+    <string-array name="place_kinds">
+        <item>The Inn</item>
+        <item>The Bridge</item>
+        <item>The Hill</item>
+        <item>The Tower</item>
+        <item>The Garden</item>
+        <item>The Well</item>
+        <item>The Gate</item>
+        <item>The Shop</item>
+        <item>The Ford</item>
+        <item>The Grove</item>
+        <item>The Stair</item>
+        <item>The Harbour</item>
+    </string-array>
+    <string-array name="place_of">
+        <item>of the Sleepy Heron</item>
+        <item>of Two Umbrellas</item>
+        <item>of the Early Sun</item>
+        <item>of Lost Buttons</item>
+        <item>of Quiet Benches</item>
+        <item>of Night Tea</item>
+        <item>of the Grey Cat</item>
+        <item>of First Snow</item>
+        <item>of the Long Laugh</item>
+        <item>of the Crooked Lantern</item>
+        <item>of Warm Hands</item>
+        <item>of the Wrong Turn</item>
+        <item>of the Last Tram</item>
+        <item>of the Patient Moon</item>
+        <item>of Burnt Toast</item>
+        <item>of the Whispering Reeds</item>
+    </string-array>
+    <string-array name="dragon_names">
+        <item>Grimfang</item>
+        <item>Dustmaw</item>
+        <item>Paperbane</item>
+        <item>Laterwing</item>
+        <item>Sockhoard</item>
+        <item>Clutterscale</item>
+        <item>Dreadbill</item>
+        <item>Mopejaw</item>
+        <item>Ashgrudge</item>
+        <item>Tangletail</item>
+        <item>Gloomcoil</item>
+        <item>Rustclaw</item>
+    </string-array>
+    <string-array name="dragon_titles">
+        <item>the Unpaid</item>
+        <item>the Unsorted</item>
+        <item>the Overdue</item>
+        <item>of the Box Room</item>
+        <item>the Endless</item>
+        <item>the Unanswered</item>
+        <item>the Postponed</item>
+        <item>the Dusty</item>
+        <item>the Many-Papered</item>
+        <item>the Untidy</item>
+    </string-array>
+</resources>

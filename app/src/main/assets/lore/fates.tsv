@@ -1,0 +1,60 @@
+f.p01	F	*	*	+	Royal Favour|The other one buys dessert tonight.	Королевская милость|Другой покупает десерт этим вечером.
+f.p02	F	*	*	+	Crown of the Evening|You choose the film, the music and the snack — no appeals.	Корона вечера|Бросивший выбирает фильм, музыку и закуску — обжалованию не подлежит.
+f.p03	F	*	*	+	Herald's Fanfare|The other one must announce your next entrance with a short fanfare.	Фанфары герольда|Другой объявляет следующее появление бросившего короткими фанфарами.
+f.p04	F	*	*	+	Palanquin|The other one carries your bag for the rest of the quest.	Паланкин|До конца квеста сумку бросившего несёт другой.
+f.p05	F	*	*	+	First Pick of the Hoard|You take the first and best bite of anything shared tonight.	Первый выбор из клада|Бросивший первым откусывает самый лучший кусок всего общего за вечер.
+f.p06	F	*	*	+	The King's Map|You decide where the party goes next.	Королевская карта|Бросивший решает, куда отряд идёт дальше.
+f.p07	F	*	*	+	Bard in Service|The other one sings you a verse of any song you name.	Бард на службе|Другой поёт куплет любой песни, которую назовёт бросивший.
+f.p08	F	*	*	+	Sworn Squire|The other one fetches your drink and refills it this evening.	Верный оруженосец|Весь вечер другой приносит бросившему напитки и подливает.
+f.p09	F	*	*	+	Silent Throne|You may skip one chore of your choice this week.	Пустующий трон|Бросивший пропускает одно домашнее дело на выбор на этой неделе.
+f.p10	F	*	*	+	Golden Ticket|You hold a free "yes" — the other must agree to one small request later.	Золотой билет|У бросившего есть одно «да»: позже другой согласится на одну небольшую просьбу.
+f.p11	F	*	*	+	Blessing of Warmth|The other one gives you a five-minute shoulder rub tonight.	Благословение тепла|Другой разминает бросившему плечи пять минут вечером.
+f.p12	F	*	*	+	Feast Decree|You pick where you eat, and the other doesn't get to sigh.	Указ о пире|Бросивший выбирает, где поесть, а другой не вздыхает.
+f.p13	F	*	*	+	Shield Bearer|The other one walks on the windy or rainy side of you all evening.	Щитоносец|Весь вечер другой идёт с ветреной или дождливой стороны.
+f.p14	F	*	*	+	Trophy Hunter|The other one takes a heroic photo of you, as many tries as you want.	Охотник за трофеями|Другой делает героическое фото бросившего — сколько угодно попыток.
+f.p15	F	*	*	+	The Last Word|You win this argument — and the next tiny one too.	Последнее слово|Бросивший выигрывает этот спор — и следующий мелкий тоже.
+f.p16	F	*	*	+	Dragon's Tribute|The other one gives you their last fry, crumb or sip of whatever is shared.	Дань дракону|Другой отдаёт последнюю картошку, крошку или глоток общего.
+f.p17	F	*	*	+	Seal of Approval|You pick the music for the way home.	Печать одобрения|Бросивший выбирает музыку на дорогу домой.
+f.p18	F	*	*	+	Royal Portrait|The other one draws a portrait of you in under two minutes, as flattering as they can.	Парадный портрет|Другой рисует портрет бросившего меньше чем за две минуты — как можно льстивее.
+f.p19	F	*	*	+	Tale at Bedtime|The other one tells you a short made-up story before sleep.	Сказка на ночь|Перед сном другой рассказывает короткую выдуманную историю.
+f.p20	F	*	*	+	Ward of Rest|You get to sleep in, and the other makes breakfast.	Оберег отдыха|Бросивший отсыпается, а другой готовит завтрак.
+f.p21	F	*	*	+	Double Loot|Whatever you were rolling for — you get your choice and the next one.	Двойная добыча|Бросивший выбирает и в этот раз, и в следующий.
+f.p22	F	*	*	+	Banner of Glory|The other one must cheer "Hail the hero!" once, out loud.	Знамя славы|Другой один раз громко восклицает: «Слава герою!»
+f.p23	F	*	*	+	The Swift Horse|You choose whether you walk or ride home.	Быстрый конь|Бросивший решает, идти домой пешком или ехать.
+f.p24	F	*	*	+	Ambassador|The other one handles the ordering, paying and small talk for the next stop.	Посол|На следующей остановке заказывает, платит и ведёт светскую беседу другой.
+f.p25	F	*	*	+	Wise Counsel|You may veto one plan of the evening.	Мудрый совет|Бросивший может наложить вето на один план вечера.
+f.p26	F	*	*	+	Magic Pocket|The other one carries a snack for you on the next quest.	Волшебный карман|На следующий квест другой берёт перекус для бросившего.
+f.p27	F	*	*	+	Hall of Fame|The other one writes your heroic deed in the chronicle tonight.	Зал славы|Вечером другой записывает подвиг бросившего в летопись.
+f.p28	F	*	*	+	Command of the Remote|You hold the remote — or the playlist — until tomorrow.	Власть над пультом|Пульт — или плейлист — у бросившего до завтра.
+f.p29	F	*	*	+	Feather Bed|You take the cozier spot on the sofa, bench or blanket.	Перина|Бросивший занимает самое уютное место на диване, скамейке или пледе.
+f.p30	F	*	*	+	Treasure Stash|The other one owes you a small surprise under 5 coins by the next quest.	Тайник с сокровищем|К следующему квесту другой готовит бросившему маленький сюрприз дешевле 5 монет.
+f.m01	F	*	*	-	Goblin Toll|Pay the other a compliment in rhyme before you go on.	Гоблинская пошлина|Прежде чем идти дальше, бросивший говорит другому комплимент в рифму.
+f.m02	F	*	*	-	Cursed Boots|Walk the next hundred steps like a very proud penguin.	Проклятые сапоги|Следующие сто шагов бросивший идёт как очень гордый пингвин.
+f.m03	F	*	*	-	Mimic's Bite|The other one chooses — and you agree happily.	Укус мимика|Выбирает другой — а бросивший радостно соглашается.
+f.m04	F	*	*	-	Tavern Bill|You pay for the next small treat, under 5 coins.	Счёт из таверны|Бросивший платит за следующее маленькое угощение, дешевле 5 монет.
+f.m05	F	*	*	-	Troll's Riddle|Answer a riddle from the other — if you fail, you hum the rest of the way.	Загадка тролля|Другой загадывает загадку; если бросивший не отгадает, он мурлычет мелодию всю дорогу.
+f.m06	F	*	*	-	Hex of Hiccups|Speak only in questions for the next two minutes.	Порча икоты|Следующие две минуты бросивший говорит только вопросами.
+f.m07	F	*	*	-	Lost Map|The other one picks the route; you may not complain once.	Потерянная карта|Маршрут выбирает другой, а бросивший ни разу не жалуется.
+f.m08	F	*	*	-	Bard's Curse|Sing the order or the next sentence you say out loud.	Проклятие барда|Следующий заказ или фразу бросивший произносит нараспев.
+f.m09	F	*	*	-	Slime Trap|Hold the other's hand — or pinkie — until you reach the next stop.	Ловушка слизня|До следующей остановки держитесь за руки — или хотя бы за мизинцы.
+f.m10	F	*	*	-	Crow's Price|Carry both bags for the next stretch of road.	Плата ворону|Следующий отрезок пути бросивший несёт обе сумки.
+f.m11	F	*	*	-	Fool's Crown|Wear something silly (a napkin, a leaf) on your head for one minute.	Шутовской венец|Бросивший носит на голове что-нибудь нелепое — салфетку, листок — одну минуту.
+f.m12	F	*	*	-	Wrong Spell|The other gets your next choice, and you must say "Wise decision".	Не то заклинание|Следующий выбор переходит к другому, а бросивший говорит: «Мудрое решение».
+f.m13	F	*	*	-	Rust Monster|No phone for the next thirty minutes — except for this app.	Ржавый монстр|Следующие тридцать минут бросивший без телефона — кроме этого приложения.
+f.m14	F	*	*	-	Haunted Voice|Talk like an ancient wizard for the next five minutes.	Голос призрака|Следующие пять минут бросивший говорит как древний чародей.
+f.m15	F	*	*	-	Kitchen Duty|You do the dishes tonight.	Кухонный наряд|Сегодня посуду моет бросивший.
+f.m16	F	*	*	-	Turnip Knight|Kneel and declare loyalty to the other in one dramatic sentence.	Рыцарь репы|Бросивший преклоняет колено и одной торжественной фразой клянётся в верности другому.
+f.m17	F	*	*	-	Sticky Boots|Wait five seconds, perfectly still, before making any move.	Липкие сапоги|Перед любым действием бросивший замирает на пять секунд.
+f.m18	F	*	*	-	Clumsy Squire|Fetch the other's drink or water for the rest of the evening.	Неуклюжий оруженосец|До конца вечера бросивший приносит другому напитки и воду.
+f.m19	F	*	*	-	Dragon Breath Sneeze|Make your best dragon roar, at a polite volume.	Драконий чих|Бросивший издаёт лучший драконий рёв — на вежливой громкости.
+f.m20	F	*	*	-	Fog of Forgetting|Let the other pick — and you must guess why they picked it.	Туман забвения|Выбирает другой, а бросивший должен угадать, почему именно так.
+f.m21	F	*	*	-	Imp's Dance|Do a ten-second victory dance for the other one.	Пляска беса|Бросивший исполняет для другого десятисекундный победный танец.
+f.m22	F	*	*	-	Talking Sword|Narrate the next minute of your life like a sports commentator.	Говорящий меч|Следующую минуту своей жизни бросивший комментирует как спортивный комментатор.
+f.m23	F	*	*	-	Pocket Gremlin|Give the other the last bite of whatever you share next.	Карманный гремлин|Последний кусочек следующего общего блюда достаётся другому.
+f.m24	F	*	*	-	Tongue-Twister Curse|Say "the dragon dragged the dragon's drum" three times fast.	Проклятие скороговорки|Бросивший трижды быстро говорит: «Дракон драл драконий барабан».
+f.m25	F	*	*	-	Swamp Stroll|The other one chooses the next song, and you must hum along.	Болотная прогулка|Следующую песню выбирает другой, а бросивший подпевает.
+f.m26	F	*	*	-	Ghost of Chores|Take out the trash or make the bed — the other picks.	Призрак уборки|Бросивший выносит мусор или заправляет кровать — что выберет другой.
+f.m27	F	*	*	-	Gnome Toll|Tell the other one embarrassing childhood story.	Гномья пошлина|Бросивший рассказывает другому одну неловкую историю из детства.
+f.m28	F	*	*	-	Pigeon Messenger|Send the other a ridiculous selfie right now.	Голубиная почта|Бросивший прямо сейчас присылает другому нелепое селфи.
+f.m29	F	*	*	-	Broken Compass|The other decides — and you must pretend it was your idea all along.	Сломанный компас|Решает другой, а бросивший делает вид, что это была его идея.
+f.m30	F	*	*	-	Moth Swarm|Give up the cozier spot on the bench, sofa or blanket.	Рой мотыльков|Бросивший уступает самое уютное место на скамейке, диване или пледе.

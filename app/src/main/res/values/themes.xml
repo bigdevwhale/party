@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Party" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/vellum</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/vermilion</item>
+        <item name="colorAccent">@color/vermilion</item>
+    </style>
+</resources>

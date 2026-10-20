@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The party's shield with its chevron and stars: the mark of the house. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FF000000" android:fillType="evenOdd"
+        android:pathData="M31,27 L77,27 L77,49.7 C77,69 64,76 54,81 C44,76 31,69 31,49.7 Z M54,51 L33,74 L37,77 L54,58.5 L71,77 L75,74 Z M43,32 L44.5,36 L48.5,36 L45.3,38.5 L46.5,42.5 L43,40 L39.5,42.5 L40.7,38.5 L37.5,36 L41.5,36 Z M65,32 L66.5,36 L70.5,36 L67.3,38.5 L68.5,42.5 L65,40 L61.5,42.5 L62.7,38.5 L59.5,36 L63.5,36 Z" />
+</vector>
