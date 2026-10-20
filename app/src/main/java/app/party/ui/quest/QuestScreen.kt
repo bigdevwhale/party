@@ -55,6 +55,7 @@ import app.party.ui.components.PrimaryButton
 import app.party.ui.components.Rubric
 import app.party.ui.components.SoftButton
 import app.party.ui.components.TopBar
+import app.party.ui.components.DarkBars
 import app.party.ui.components.haptics
 import app.party.ui.ctx
 import app.party.ui.theme.U
@@ -172,6 +173,7 @@ private fun Letters(q: Quest, hall: Hall) {
     val letters = hall.party.waitingLetters
     var open by rememberSaveable { mutableStateOf(false) }
     val letter = letters.firstOrNull() ?: return
+    DarkBars()
     val to = 1 - letter.from
     Column(Modifier.fillMaxSize().background(U.c.night).statusBarsPadding().navigationBarsPadding().padding(24.dp), verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
         Rubric(stringResource(R.string.letter_raven), color = U.c.goldLight)
@@ -211,6 +213,7 @@ private fun SecretDeal(q: Quest, hall: Hall, who: Int) {
     var peeking by remember { mutableStateOf(SHOTS) }
     val secret = hall.lore[if (who == 0) q.secretA else q.secretB]
     BackHandler { }
+    DarkBars()
     Column(
         Modifier.fillMaxSize().background(U.c.night).statusBarsPadding().navigationBarsPadding().padding(24.dp),
         verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally,
@@ -225,7 +228,8 @@ private fun SecretDeal(q: Quest, hall: Hall, who: Int) {
             Modifier.fillMaxWidth().height(220.dp).clip(U.RMd)
                 .background(if (peeking) U.c.page else U.c.leather)
                 .border(1.5.dp, U.c.gold, U.RMd)
-                .pointerInput(Unit) {
+                // Keyed by the hero: each one's hold must reach their own state.
+                .pointerInput(who) {
                     awaitEachGesture {
                         awaitFirstDown()
                         peeking = true; seen = true

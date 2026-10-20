@@ -89,7 +89,16 @@ object GameMaster {
     /** The real secret among two decoys, in a fixed shuffled order for the quest. */
     fun choices(lore: Lore, real: String, other: String, seed: Long): List<String> {
         val rnd = Random(seed)
-        val decoys = lore.secrets.map { it.id }.filter { it != real && it != other }.shuffled(rnd).take(2)
+        // Decoys that open differently from the real one and each other, so it isn't three "Find out…".
+        fun opening(id: String) = lore[id]?.en?.firstOrNull()?.substringBefore(' ')?.lowercase() ?: ""
+        val used = mutableSetOf(opening(real))
+        val pool = lore.secrets.map { it.id }.filter { it != real && it != other }.shuffled(rnd)
+        val decoys = mutableListOf<String>()
+        for (id in pool) {
+            if (decoys.size == 2) break
+            if (used.add(opening(id))) decoys += id
+        }
+        pool.filter { it !in decoys }.take(2 - decoys.size).forEach { decoys += it }
         return (decoys + real).shuffled(rnd)
     }
 

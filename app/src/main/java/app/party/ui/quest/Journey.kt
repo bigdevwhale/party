@@ -76,6 +76,7 @@ import app.party.ui.components.SectionTitle
 import app.party.ui.components.SoftButton
 import app.party.ui.components.Stamp
 import app.party.ui.components.TopBar
+import app.party.ui.components.DarkBars
 import app.party.ui.components.haptics
 import app.party.ui.ctx
 import app.party.ui.theme.Cormorant
@@ -177,10 +178,11 @@ fun Journey(q: Quest, hall: Hall, go: Go) {
 
         AnimatedVisibility(over != Over.NONE, enter = fadeIn(), exit = fadeOut()) {
             Box(
-                Modifier.fillMaxSize().background(U.c.night.copy(alpha = 0.93f))
+                Modifier.fillMaxSize().background(U.c.night)
                     .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null) { }
                     .statusBarsPadding().navigationBarsPadding(),
             ) {
+                DarkBars()
                 when (over) {
                     Over.DIE -> DieTable(q, hall) { over = Over.NONE }
                     Over.ENCOUNTER -> Encounter(q, hall, wandered) { over = Over.NONE }
@@ -271,7 +273,7 @@ private fun DieTable(q: Quest, hall: Hall, onClose: () -> Unit) {
             contentAlignment = Alignment.Center,
         ) {
             Canvas(Modifier.fillMaxSize()) { d20(if (face == 1) androidx.compose.ui.graphics.Color(0xFF8E1F22) else gold, ink) }
-            Text(if (face == 0) "?" else face.toString(), fontFamily = Cormorant, fontWeight = FontWeight.Bold, fontSize = 52.sp, color = ink, modifier = Modifier.padding(top = 18.dp))
+            Text(if (face == 0) "?" else face.toString(), fontFamily = Cormorant, fontWeight = FontWeight.Bold, fontSize = 38.sp, color = ink, modifier = Modifier.padding(top = 30.dp))
         }
         Spacer(Modifier.height(20.dp))
         val f = fate

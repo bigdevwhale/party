@@ -156,12 +156,12 @@ fun DrawScope.d20(face: Color, edge: Color) {
     val c = Offset(size.width / 2, size.height / 2)
     val r = s * 0.47f
     val hex = List(6) { i -> val a = -PI / 2 + i * PI / 3; Offset(c.x + (r * cos(a)).toFloat(), c.y + (r * sin(a)).toFloat()) }
-    val tri = List(3) { i -> val a = PI / 2 + i * 2 * PI / 3 + PI; Offset(c.x + (r * 0.58f * cos(a)).toFloat(), c.y + (r * 0.58f * sin(a)).toFloat() + r * 0.06f) }
+    val tri = List(3) { i -> val a = PI / 2 + i * 2 * PI / 3 + PI; Offset(c.x + (r * 0.74f * cos(a)).toFloat(), c.y + (r * 0.74f * sin(a)).toFloat() + r * 0.1f) }
     val outline = Path().apply { hex.forEachIndexed { i, o -> if (i == 0) moveTo(o.x, o.y) else lineTo(o.x, o.y) }; close() }
     drawPath(outline, face)
     drawPath(outline, Brush.linearGradient(listOf(Color.White.copy(alpha = 0.35f), Color.Transparent, Color.Black.copy(alpha = 0.3f)), hex[5], hex[2]))
     val front = Path().apply { moveTo(tri[0].x, tri[0].y); lineTo(tri[1].x, tri[1].y); lineTo(tri[2].x, tri[2].y); close() }
-    drawPath(front, Color.White.copy(alpha = 0.16f))
+    drawPath(front, BookPalette.goldLight.copy(alpha = 0.9f))
     val w = s * 0.018f
     drawPath(outline, edge, style = Stroke(w * 1.4f))
     drawPath(front, edge, style = Stroke(w))

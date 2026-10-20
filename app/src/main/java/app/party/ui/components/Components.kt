@@ -230,3 +230,19 @@ class Haptics(private val view: View, private val on: Boolean) {
 
 @Composable
 fun haptics(on: Boolean): Haptics = Haptics(LocalView.current, on)
+
+/** Light status and navigation icons while a dark page is shown; the vellum's dark icons come back after. */
+@Composable
+fun DarkBars() {
+    val view = LocalView.current
+    androidx.compose.runtime.DisposableEffect(Unit) {
+        val window = (view.context as? android.app.Activity)?.window
+        val bars = window?.let { androidx.core.view.WindowCompat.getInsetsController(it, view) }
+        bars?.isAppearanceLightStatusBars = false
+        bars?.isAppearanceLightNavigationBars = false
+        onDispose {
+            bars?.isAppearanceLightStatusBars = true
+            bars?.isAppearanceLightNavigationBars = true
+        }
+    }
+}
