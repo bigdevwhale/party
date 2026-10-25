@@ -38,6 +38,7 @@ import app.party.ui.Go
 import app.party.ui.Hall
 import app.party.ui.Language
 import app.party.ui.art.vellum
+import app.party.ui.components.CommunityLinks
 import app.party.ui.components.Confirm
 import app.party.ui.components.Field
 import app.party.ui.components.Leaf
@@ -109,6 +110,8 @@ fun SettingsScreen(hall: Hall, go: Go) {
                     SoftButton(stringResource(R.string.backup_import), { import.launch(arrayOf("application/json", "*/*")) }, Modifier.weight(1f), color = U.c.wax)
                 }
             }
+
+            CommunityLinks()
             Spacer(Modifier.height(20.dp))
             Text(stringResource(R.string.settings_about, BuildConfig.VERSION_NAME), style = UType.Small)
             Spacer(Modifier.height(24.dp))
